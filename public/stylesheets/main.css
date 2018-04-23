@@ -14,6 +14,10 @@
     display: inline; 
 }
 
+.glyphicon-tent {
+    float: left;
+}
+
 /* Google Maps */
 #map {
     height: 400px;
