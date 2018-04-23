@@ -18,6 +18,10 @@
     float: left;
 }
 
+#forgot{
+    float: right;
+}
+
 /* Google Maps */
 #map {
     height: 400px;
