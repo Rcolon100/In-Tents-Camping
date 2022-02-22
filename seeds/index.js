@@ -3,7 +3,7 @@ const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
 
-mongoose.connect('mongodb://localhost:27017/yelp-camp', {
+mongoose.connect('mongodb://localhost:27017/in-tents-camping', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
@@ -41,11 +41,11 @@ const seedDB = async () => {
             images: [
                 {
                     url: 'https://res.cloudinary.com/douqbebwk/image/upload/v1600060601/YelpCamp/ahfnenvca4tha00h2ubt.png',
-                    filename: 'YelpCamp/ahfnenvca4tha00h2ubt'
+                    filename: 'In-Tents-Camping/ahfnenvca4tha00h2ubt'
                 },
                 {
                     url: 'https://res.cloudinary.com/douqbebwk/image/upload/v1600060601/YelpCamp/ruyoaxgf72nzpi4y6cdi.png',
-                    filename: 'YelpCamp/ruyoaxgf72nzpi4y6cdi'
+                    filename: 'In-Tents-Camping/ruyoaxgf72nzpi4y6cdi'
                 }
             ]
         })
