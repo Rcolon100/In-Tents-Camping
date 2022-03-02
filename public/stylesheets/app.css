@@ -7,3 +7,12 @@
     width: 100%;
     height: 300px;
 }
+
+.allCamps{
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    background-color: #00bcd4;
+    border-color: #007890;
+}
